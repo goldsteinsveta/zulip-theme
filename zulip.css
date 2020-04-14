@@ -117,6 +117,9 @@ body.night-mode,
 .mention .messagebox {
   background-color: #ffeae6 !important;
 }
+.night-mode .mention .messagebox {
+  background-color: #804040 !important;
+}
 
 .message-header-contents .stream_label {
   border-radius: 999px !important;
