@@ -116,6 +116,7 @@ body.night-mode,
 
 .mention .messagebox {
   background-color: #ffeae6 !important;
+  border-radius: 4px !important;
 }
 .night-mode .mention .messagebox {
   background-color: #804040 !important;
