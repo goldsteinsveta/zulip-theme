@@ -210,6 +210,9 @@ div#searchbox_legacy {
   letter-spacing: 0.015em !important;
   font-weight: 300 !important;
 }
+.night-mode #searchbox_legacy #search_query {
+  color: lightgray !important;
+}
 
 div#tab_bar {
   border: none !important;
