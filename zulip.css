@@ -1,0 +1,236 @@
+.app-main,
+.header-main,
+#compose-container {
+  max-width: none !important;
+}
+
+body,
+.app-main,
+#compose,
+#tab_bar_underpadding {
+  background: #F5F7F8 !important;
+}
+
+body.night-mode,
+.night-mode .app-main,
+.night-mode #compose,
+.night-mode #tab_bar_underpadding {
+  background: #212d3b !important;
+}
+
+.night-mode #left-sidebar,
+.night-mode #right-sidebar {
+  color: #fff !important;
+}
+
+#left-sidebar,
+#right-sidebar {
+  color: #282828 !important;
+}
+
+.sidebar-title {
+  color: #282828 !important;
+  font-size: 0.8rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.015em !important;
+}
+
+.night-mode #compose {
+  border-top-color: #212d3b !important;
+}
+
+.compose-content {
+  background: white !important;
+  border-radius: 4px 4px 0 0 !important;
+  box-shadow: 0 -8px 8px rgba(130, 130, 130, 0.06);
+}
+
+.night-mode .compose-content {
+  background: rgba(79, 131, 156, 0.2) !important;
+}
+
+.message_list .recipient_row,
+.floating_recipient {
+  border-color: #cacaca !important;
+}
+
+.recipient_row {
+  background: #ffffff !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  border-style: solid !important;
+  padding: 5px !important;
+}
+
+.night-mode .recipient_row {
+  background: rgba(79, 131, 156, 0.2) !important;
+}
+
+.message-header-contents {
+  align-items: center;
+  background: none !important;
+  border: none !important;
+  display: flex !important;
+  padding: 4px 0;
+}
+
+.stream_topic {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.recipient_row_date {
+  display: block !important;
+  margin-top: 4px;
+}
+
+.message_list .message-header-wrapper {
+  background: none !important;
+  margin-bottom: 5px;
+}
+
+.message_header_private_message .message-header-contents,
+.private-message .messagebox {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.message_row {
+  border: none !important;
+}
+
+.messagebox,
+.date_row {
+  box-shadow: none !important;
+}
+
+.selected_message .messagebox-content {
+  background: #f2f6fa !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+
+.night-mode .selected_message .messagebox-content {
+  background: rgba(79, 131, 156, 0.3) !important;
+}
+
+.mention .messagebox {
+  background-color: #ffeae6 !important;
+}
+
+.message-header-contents .stream_label {
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+  margin-left: 2px !important;
+  padding: 3px 10px 2px !important;
+}
+
+.stream_label:after {
+  border-width: 5px 0 5px 5px !important;
+  display: none !important;
+  top: 75% !important;
+}
+
+.message-header-contents .stream_topic {
+  font-weight: 600 !important;
+}
+
+.inline_profile_picture {
+  border-radius: 999px !important;
+}
+.sender_name {
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+}
+
+.messagebox-content {
+  margin-bottom: 0.5rem !important;
+}
+
+.message_content {
+  color: #353535 !important;
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  line-height: 1.35 !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.rendered_markdown .user-group-mention, .rendered_markdown .user-mention {
+  background: transparent !important;
+  font-size: 0.8rem !important;
+  padding: 1px 0.3em 0 !important;
+}
+
+.floating_recipient {
+  background: white !important;
+  border-bottom: 1px solid #e8e8e8 !important;
+  border-radius: 4px 4px 0 0 !important;
+  box-sizing: border-box !important;
+}
+
+.night-mode .floating_recipient {
+  background: none !important;
+  border-bottom-color: rgba(79, 131, 156, 0.4) !important;
+}
+
+.floating_recipient .recipient_row {
+  border: none !important;
+}
+
+div#searchbox_legacy {
+  border: none !important;
+}
+
+#searchbox_legacy #search_query {
+  color: black !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.015em !important;
+  font-weight: 300 !important;
+}
+
+div#tab_bar {
+  border: none !important;
+}
+
+.search_closed {
+  border: none !important;
+}
+
+#top_navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+}
+
+.top-navbar-border {
+  padding-left: 4px !important;
+}
+
+.top-navbar-border li {
+  border-radius: 999px !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  line-height: 1em !important;
+  margin-right: 4px !important;
+  padding: 2px 8px 0px !important;
+}
+
+.top-navbar-border li.inactive {
+  overflow: hidden !important;
+}
+
+#tab_list .active {
+  border-radius: 20px !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  margin-top: 10px !important;
+  padding: 0 8px !important;
+}
+
+#group-pms .user_circle_fraction, #user_presences .user_circle {
+  height: 6px !important;
+  width: 6px !important;
+}
+
+.user_circle_green {
+  background-color: #88e888 !important;
+  border-color: #88e888 !important;
+}
