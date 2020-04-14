@@ -158,8 +158,24 @@ body.night-mode,
   color: #F5F7F8 !important;
 }
 
-body.night-mode .message_reactions .message_reaction, body.night-mode .message_reactions:hover .message_reaction+.reaction_button, body.night-mode .rendered_markdown .user-group-mention, body.night-mode .rendered_markdown .user-mention {
+body.night-mode .message_reactions .message_reaction,
+body.night-mode .rendered_markdown .user-group-mention, 
+body.night-mode .rendered_markdown .user-mention {
   border-color: #666 !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+body.night-mode .message_reactions .message_reaction:hover,
+body.night-mode .message_reactions:hover .message_reaction+.reaction_button:hover {
+  border-color: lightgray !important;
+}
+
+.rendered_markdown blockquote {
+  padding-left: 10px !important;
+  border-width: 1px !important;
+}
+
+.rendered_markdown blockquote p {
+  opacity: 0.7;
 }
 
 .rendered_markdown .user-group-mention, .rendered_markdown .user-mention {
