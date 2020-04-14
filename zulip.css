@@ -138,16 +138,17 @@ body.night-mode,
   font-weight: 600 !important;
 }
 
+.messagebox-content {
+  padding-bottom: 1rem !important;
+}
+
 .inline_profile_picture {
   border-radius: 999px !important;
 }
+
 .sender_name {
   font-size: 0.9rem !important;
   font-weight: 600 !important;
-}
-
-.messagebox-content {
-  margin-bottom: 0.5rem !important;
 }
 
 .message_content {
@@ -155,7 +156,7 @@ body.night-mode,
   font-size: 0.9rem !important;
   font-weight: 400 !important;
   line-height: 1.35 !important;
-  padding-bottom: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 .night-mode .message_content {
   color: #F5F7F8 !important;
