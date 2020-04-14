@@ -154,6 +154,13 @@ body.night-mode,
   line-height: 1.35 !important;
   padding-bottom: 0.5rem !important;
 }
+.night-mode .message_content {
+  color: #F5F7F8 !important;
+}
+
+body.night-mode .message_reactions .message_reaction, body.night-mode .message_reactions:hover .message_reaction+.reaction_button, body.night-mode .rendered_markdown .user-group-mention, body.night-mode .rendered_markdown .user-mention {
+  border-color: #666 !important;
+}
 
 .rendered_markdown .user-group-mention, .rendered_markdown .user-mention {
   background: transparent !important;
