@@ -1,7 +1,5 @@
-.app-main,
-.header-main,
-#compose-container {
-  max-width: none !important;
+.message_content {
+  max-width: 50rem;
 }
 
 body,
