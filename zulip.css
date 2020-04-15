@@ -43,10 +43,16 @@ body.night-mode,
   background: white !important;
   border-radius: 4px 4px 0 0 !important;
   box-shadow: 0 -8px 8px rgba(130, 130, 130, 0.06);
+  padding: 14px 16px 18px !important;
 }
 
 .night-mode .compose-content {
   background: rgba(79, 131, 156, 0.2) !important;
+  box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.06);
+}
+
+textarea.new_message_textarea {
+  height: 4rem !important;
 }
 
 .message_list .recipient_row,
@@ -104,13 +110,13 @@ body.night-mode,
   box-shadow: none !important;
 }
 
-.selected_message .messagebox-content {
+.selected_message .messagebox-content, .messagebox:hover .messagebox-content {
   background: #f2f6fa !important;
   border-radius: 4px !important;
   box-shadow: none !important;
 }
 
-.night-mode .selected_message .messagebox-content {
+.night-mode .selected_message .messagebox-content, .night-mode .messagebox:hover .messagebox-content {
   background: rgba(79, 131, 156, 0.3) !important;
 }
 
@@ -118,6 +124,7 @@ body.night-mode,
   background-color: #ffeae6 !important;
   border-radius: 4px !important;
 }
+
 .night-mode .mention .messagebox {
   background-color: #804040 !important;
 }
@@ -140,6 +147,11 @@ body.night-mode,
 }
 
 .messagebox-content {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important;
+  padding: 0.5rem 115px 0.5rem 0.5rem !important;
+}
+.night-mode .messagebox-content {
+  border-bottom: 1px solid rgba(40, 60, 70, 0.8) !important;
   padding: 0.5rem 115px 0.5rem 0.5rem !important;
 }
 
@@ -159,6 +171,7 @@ body.night-mode,
   line-height: 1.35 !important;
   margin-bottom: 0.5rem !important;
 }
+
 .night-mode .message_content {
   color: #F5F7F8 !important;
 }
@@ -169,6 +182,7 @@ body.night-mode .rendered_markdown .user-mention {
   border-color: #666 !important;
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
+
 body.night-mode .message_reactions .message_reaction:hover,
 body.night-mode .message_reactions:hover .message_reaction+.reaction_button:hover {
   border-color: lightgray !important;
@@ -232,28 +246,24 @@ div#tab_bar {
 }
 
 .top-navbar-border {
-  padding-left: 4px !important;
+  padding-left: 6px !important;
 }
 
 .top-navbar-border li {
   border-radius: 999px !important;
-  font-size: 15px !important;
+  font-size: 0.8rem !important;
   font-weight: 600 !important;
   line-height: 1em !important;
-  margin-right: 4px !important;
-  padding: 2px 8px 0px !important;
-}
-
-.top-navbar-border li.inactive {
+  margin: 10px 4px 0 0 !important;
   overflow: hidden !important;
 }
 
-#tab_list .active {
-  border-radius: 20px !important;
-  height: 20px !important;
-  line-height: 20px !important;
-  margin-top: 10px !important;
-  padding: 0 8px !important;
+.top-navbar-border li.active {
+  padding: 3px 7px !important;
+}
+
+.top-navbar-border li.inactive {
+  padding: 3px 2px 0px !important;
 }
 
 #group-pms .user_circle_fraction, #user_presences .user_circle {
