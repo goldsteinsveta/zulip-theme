@@ -148,9 +148,9 @@ textarea.new_message_textarea {
   border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important;
   padding: 0.5rem 115px 0.5rem 0.5rem !important;
 }
+
 .night-mode .messagebox-content {
   border-bottom: 1px solid rgba(40, 60, 70, 0.8) !important;
-  padding: 0.5rem 115px 0.5rem 0.5rem !important;
 }
 
 .inline_profile_picture {
@@ -167,11 +167,15 @@ textarea.new_message_textarea {
   font-size: 0.9rem !important;
   font-weight: 400 !important;
   line-height: 1.35 !important;
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0.2rem !important;
 }
 
 .night-mode .message_content {
   color: #F5F7F8 !important;
+}
+
+.message_reactions .message_reaction {
+  margin-bottom: 0.5rem !important;
 }
 
 body.night-mode .message_reactions .message_reaction,
