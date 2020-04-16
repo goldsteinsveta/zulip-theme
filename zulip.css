@@ -50,7 +50,7 @@ body.night-mode,
 }
 
 textarea.new_message_textarea {
-  height: 4rem !important;
+  min-height: 4rem !important;
 }
 
 .message_list .recipient_row,
